@@ -388,10 +388,15 @@ img {
 }
 
 .header__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-left: 93px;
+}
+@media (min-width: 768px) {
+  .header__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .header__item:not(:last-child) {
