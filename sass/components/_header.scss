@@ -67,6 +67,9 @@
 }
 
 .header__burger-menu {
+    background-color: var(--primary-white-color);
+    border: 0;
+
     @media (min-width: 480px) {
         display: none;
         
