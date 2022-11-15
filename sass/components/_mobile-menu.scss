@@ -20,38 +20,55 @@
 &__close-button {
     position: absolute;
     top: 10px;
-    right: 10px;
-    }
+    right: 15px;
     
+    background-color: var(--primary-white-color);
+    border: none;
+
+    }
+&__icon {
     &:hover,
     &:focus  {
         color: var(--accent-color);
     }
 }
-
-.mobile-menu__nav {
+&__nav {
     list-style: none;
-    
-    
+
+
 }
 
-.mobile-menu__link {
+&__link {
     display: block;
     margin-bottom: 32px;
-    
+
     font-weight: 500;
     font-size: 40px;
     line-height: 1.175;
     letter-spacing: 0.02em;
-    
-    
+
+
     color: var(--primary-text-color);
     text-decoration: none;
 
     &:hover,
-    &:focus  {
+    &:focus {
         color: var(--accent-color);
     }
+
 }
+
+&__contacts {
+    list-style: none;
+}
+
+&__contacts-link {
+
+}
+
+
+}
+
+
 
 
