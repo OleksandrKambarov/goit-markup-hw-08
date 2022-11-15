@@ -1,4 +1,6 @@
 .mobile-menu {
+    opacity: 0;
+    pointer-events: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,6 +17,7 @@
 &.is-open {
     display: flex;
     transform: translateX(0);
+    opacity: 1;
     }
 
 &__close-button {
@@ -58,15 +61,25 @@
 
 }
 
-&__contacts {
-    list-style: none;
+
+
+&__link-phone {
+    display: block;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.176;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    margin-bottom: 32px;
 }
 
-&__contacts-link {
-
+&__link-email {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.166;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
 }
-
-
 }
 
 

@@ -511,6 +511,8 @@ img {
 }
 
 .mobile-menu {
+  opacity: 0;
+  pointer-events: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -533,6 +535,7 @@ img {
   display: flex;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+  opacity: 1;
 }
 .mobile-menu__close-button {
   position: absolute;
@@ -560,9 +563,23 @@ img {
 .mobile-menu__link:hover, .mobile-menu__link:focus {
   color: var(--accent-color);
 }
-.mobile-menu__contacts {
-  list-style: none;
+.mobile-menu__link-phone {
+  display: block;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.176;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  margin-bottom: 32px;
 }
+.mobile-menu__link-email {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.166;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
 .backdrop {
   position: fixed;
   top: 0;
