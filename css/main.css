@@ -1,5 +1,5 @@
 :root {
-  --primary-white-color: #FFF;
+  --primary-white-color: #FFFFFF;
   --primary-text-color: #212121;
   --secondary-text-color: #000;
   --title-text-color: #757575;
@@ -508,6 +508,17 @@ img {
 }
 .button:hover, .button:focus {
   background-color: var(--button-hover-color);
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: var(--primary-white-color);
+  padding: 40px;
 }
 
 .backdrop {
