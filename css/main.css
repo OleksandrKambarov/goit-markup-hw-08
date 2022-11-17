@@ -493,10 +493,17 @@ img {
   max-width: 696px;
   color: var(--primary-white-color);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.162;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
+}
+@media (min-width: 480px) {
+  .hero-title {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .button {
