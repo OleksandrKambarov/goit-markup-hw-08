@@ -586,14 +586,17 @@ img {
   line-height: 1.166;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  margin-bottom: 64px;
   text-decoration: none;
+}
+.mobile-menu__contacts-container {
+  margin-bottom: 64px;
 }
 .mobile-menu__social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: auto;
+  padding: 0, 10px;
 }
 .mobile-menu__social-item:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -604,8 +607,10 @@ img {
   line-height: 1.22;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding: 0, 10px;
   color: var(--accent-color);
+}
+.mobile-menu__social-link:last-child {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .backdrop {

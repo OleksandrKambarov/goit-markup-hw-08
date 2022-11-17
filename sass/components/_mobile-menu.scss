@@ -89,15 +89,20 @@
     line-height: 1.166;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    margin-bottom: 64px;
     text-decoration: none;
     }
+
+&__contacts-container {
+    margin-bottom: 64px;
+}
 
 &__social{
     display: flex;
     margin-bottom: auto;
+    padding: 0, 10px;
 
 }
+
 
 &__social-item {
     &:not(:last-child){
@@ -112,9 +117,11 @@
         line-height: 1.22;
         letter-spacing: 0.02em;
         text-decoration: none;
-        padding: 0, 10px;
-        color: var(--accent-color);
         
+        color: var(--accent-color);
+    &:last-child{
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+    }
     }
 
 
