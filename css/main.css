@@ -390,7 +390,7 @@ img {
 .header__burger-menu {
   padding: 0;
   background-color: var(--primary-white-color);
-  border: 0;
+  border: 2px;
 }
 @media (min-width: 480px) {
   .header__burger-menu {
@@ -595,8 +595,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: auto;
-  padding: 0, 10px;
+  padding: 10px;
 }
 .mobile-menu__social-item:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
