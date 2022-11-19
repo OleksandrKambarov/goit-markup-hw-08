@@ -1,5 +1,7 @@
 .features {
-    padding-bottom: 0;
+    @media (min-width: 1200px){
+        padding-bottom: 0;
+    } 
 }
 
 .features__title {
@@ -20,8 +22,11 @@
     }
 
     @media (min-width: 768px) {
-        max-width: 270px;
+        max-width: 354px;
     }
+        @media (min-width: 1200px) {
+            max-width: 270px;
+        }
 }
 
 .features__menu {
