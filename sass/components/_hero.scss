@@ -5,10 +5,11 @@
     margin-right: auto;
     background-color: var(--section-fon-color);
     text-align: center;
+    background-size: cover;
 
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imgfon1.jpg);
     background-repeat: no-repeat;
-}
+// }
 
 .hero-box {
     padding: 200px 0;
