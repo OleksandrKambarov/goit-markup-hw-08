@@ -147,7 +147,7 @@ img {
   text-transform: uppercase;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .features__item {
     margin-bottom: 30px;
   }
@@ -155,7 +155,7 @@ img {
     margin-bottom: 0;
   }
 }
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .features__item {
     max-width: 270px;
   }
@@ -524,7 +524,12 @@ img {
 }
 
 .hero-box {
-  padding: 200px 0;
+  padding: 118px 0;
+}
+@media (min-width: 1200px) {
+  .hero-box {
+    padding: 200px 0;
+  }
 }
 
 .hero-title {

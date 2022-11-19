@@ -12,14 +12,14 @@
 }
 
 .features__item {
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
         margin-bottom: 30px;
     &:last-child {
         margin-bottom: 0;
     }
     }
-    
-    @media (min-width: 480px) {
+
+    @media (min-width: 768px) {
         max-width: 270px;
     }
 }
