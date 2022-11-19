@@ -468,7 +468,7 @@ img {
           align-items: center;
   margin-left: 88px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contacts__menu {
     display: none;
   }
@@ -950,6 +950,15 @@ img {
   border: 1px;
   gap: 30px;
 }
+@media (max-width: 1199px) {
+  .team__menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .team__card {
   padding: 30px;
@@ -972,10 +981,21 @@ img {
 }
 
 .team__image {
+  width: 450px;
   background-color: var(--primary-white-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+@media (min-width: 768px) {
+  .team__image {
+    max-width: 354px;
+  }
+}
+@media (min-width: 1200px) {
+  .team__image {
+    max-width: 270px;
+  }
 }
 
 .social {
@@ -1019,6 +1039,11 @@ img {
   fill: currentColor;
 }
 
+@media (max-width: 1199px) {
+  .work {
+    display: none;
+  }
+}
 .work__title {
   font-weight: 700;
   font-size: 36px;
@@ -1026,14 +1051,12 @@ img {
   text-align: center;
   margin-bottom: 50px;
 }
-
 .work__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
-
 .work__activity {
   position: relative;
   display: -webkit-box;
@@ -1051,7 +1074,6 @@ img {
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-
 .work__label {
   position: absolute;
   bottom: 0;

@@ -1,4 +1,9 @@
-.work__title {
+.work {
+    @media (max-width: 1199px) {
+        display: none;
+    }
+
+&__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.166;
@@ -6,15 +11,16 @@
     margin-bottom: 50px;
 }
 
-.work__menu {
+&__menu {
     display: flex;
     gap: 30px;
 }
 
-.work__activity {
+&__activity {
     position: relative;
     display: flex;
     justify-content: center;
+
     &::before {
         content: '';
         position: absolute;
@@ -25,7 +31,7 @@
     }
 }
 
-.work__label {
+&__label {
     position: absolute;
     bottom: 0;
     margin: 0;
@@ -40,3 +46,5 @@
 
     color: var(--primary-white-color);
 }
+}
+
