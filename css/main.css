@@ -135,6 +135,9 @@ img {
 .features__menu {
   margin-bottom: 30px;
 }
+.features__menu:last-child {
+  margin-bottom: 0;
+}
 @media (min-width: 480px) {
   .features__menu {
     display: -webkit-box;
@@ -167,11 +170,16 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 270px;
+  width: 450px;
   height: 120px;
   background-color: var(--secondary-fon-color);
   border-radius: 4px;
   margin-bottom: 30px;
+}
+@media (min-width: 480px) {
+  .features__list {
+    width: 270px;
+  }
 }
 
 .footer {
@@ -478,8 +486,8 @@ img {
 }
 
 .hero {
-  max-width: 1600px;
-  height: 600px;
+  max-width: 480px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--section-fon-color);
@@ -489,6 +497,8 @@ img {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/imgfon.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/imgfon.jpg);
   background-repeat: no-repeat;
+  max-width: 1600px;
+  height: 600px;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {

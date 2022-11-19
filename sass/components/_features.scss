@@ -17,9 +17,9 @@
 
 .features__menu {
     margin-bottom: 30px;
-
-
-
+    &:last-child {
+        margin-bottom: 0;
+    }
 
     @media (min-width: 480px){ 
     display: flex;
@@ -39,9 +39,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     background-color: var(--secondary-fon-color);
     border-radius: 4px;
     margin-bottom: 30px;
+
+    @media (min-width: 480px){
+        width: 270px;
+        
+    }
 }
