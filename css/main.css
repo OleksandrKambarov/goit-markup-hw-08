@@ -443,10 +443,16 @@ img {
   color: var(--secondary-text-color);
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.166;
   text-decoration: none;
   letter-spacing: 0.03em;
+}
+@media (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 .logo__text {
   display: inline-block;
@@ -454,22 +460,20 @@ img {
 }
 
 .contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-left: auto;
 }
 .contacts__menu {
-  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: auto;
+  margin-left: 88px;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .contacts__menu {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
   .contacts__menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -481,12 +485,10 @@ img {
 }
 .contacts__link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.17;
   text-decoration: none;
   letter-spacing: 0.02em;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -495,6 +497,14 @@ img {
 .contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
+@media (min-width: 1200px) {
+  .contacts__link {
+    font-size: 14px;
+    line-height: 1.14;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
 .contacts__icon {
   margin-right: 10px;
   fill: currentColor;
@@ -502,7 +512,7 @@ img {
 
 .hero {
   max-width: 1600px;
-  max-height: 600px;
+  height: 600px;
   background-color: var(--section-fon-color);
   text-align: center;
   background-size: cover;

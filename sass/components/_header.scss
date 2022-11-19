@@ -88,10 +88,17 @@
     color: var(--secondary-text-color);
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 1.166;
     text-decoration: none;
     letter-spacing: 0.03em;
+
+    @media (min-width: 1200px) {
+        font-size: 26px;
+        line-height: 1.19;
+    }
+
+
 
     &__text {
         display: inline-block;
@@ -100,16 +107,18 @@
 }
 
 .contacts {
-    display: flex;
-    align-items: center;
     margin-left: auto;
 
 &__menu {
-    display: none;
     align-items: center;
-    margin-left: auto;
+    margin-left: 88px;
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
+        display: none;
+
+    }
+    
+    @media (min-width: 1200px) {
         display: flex;
 
     }
@@ -123,13 +132,12 @@
 
 &__link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 
     color: var(--title-text-color);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 12px;
+    line-height: 1.17;
     text-decoration: none;
     letter-spacing: 0.02em;
 
@@ -139,6 +147,13 @@
     &:focus {
     color: var(--accent-color);
 }
+
+@media (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.14;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
 }
 
 &__icon {
