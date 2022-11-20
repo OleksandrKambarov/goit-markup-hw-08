@@ -11,7 +11,7 @@
 }
 
 &__adress {
-    
+
     @media (max-width: 767px) {
         margin-bottom: 60px;
     }
@@ -30,6 +30,12 @@
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
+
+    @media (max-width: 1199px) {
+            display: table;
+            margin-right: auto;
+            margin-left: auto;
+        }
 }
 
 &__text {
@@ -63,6 +69,12 @@
     &:focus {
         color: var(--accent-color);
     }
+    
+    @media (max-width: 1199px) {
+        display: table;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 }
 
@@ -87,6 +99,12 @@
     margin-bottom: 20px;
 
     color: var(--primary-white-color);
+
+    @media (max-width: 1199px) {
+            display: table;
+            margin-right: auto;
+            margin-left: auto;
+        }
 }
 
 .social__link {
@@ -109,6 +127,13 @@
     text-transform: uppercase;
     color: var(--primary-white-color);
     margin-bottom: 20px;
+    
+    @media (max-width: 1199px) {
+        display: table;
+        margin-right: auto;
+        margin-left: auto;
+        }
+    
 }
 
 .footer-form__label {
