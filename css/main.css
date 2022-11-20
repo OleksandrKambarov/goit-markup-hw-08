@@ -221,9 +221,7 @@ img {
 
 .footer {
   background-color: var(--section-fon-color);
-  padding: 60px 0px;
 }
-
 .footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -232,11 +230,9 @@ img {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-
 .footer__adress {
   margin-right: 70px;
 }
-
 .footer__logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -246,17 +242,14 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-
 .footer__text {
   display: inline-block;
   color: var(--accent-color);
   margin-bottom: 20px;
 }
-
 .footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
-
 .footer__link {
   color: var(--footer-text-color);
   font-style: normal;
