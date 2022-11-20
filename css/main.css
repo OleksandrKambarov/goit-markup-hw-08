@@ -233,8 +233,15 @@ img {
             align-items: baseline;
   }
 }
-.footer__adress {
-  margin-right: 70px;
+@media (max-width: 767px) {
+  .footer__adress {
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer__adress {
+    margin-right: 70px;
+  }
 }
 .footer__logo {
   font-family: "Raleway";
@@ -271,8 +278,15 @@ img {
   color: var(--accent-color);
 }
 
-.social-container {
-  margin-right: auto;
+@media (min-width: 1200px) {
+  .social-container {
+    margin-right: auto;
+  }
+}
+@media (max-width: 767px) {
+  .social-container {
+    margin-bottom: 60px;
+  }
 }
 
 .social__title {
