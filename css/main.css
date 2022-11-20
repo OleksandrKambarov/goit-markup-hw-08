@@ -934,7 +934,6 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
-
 .team__title {
   font-weight: 700px;
   font-size: 36px;
@@ -942,7 +941,6 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-
 .team__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -959,11 +957,9 @@ img {
             justify-content: center;
   }
 }
-
 .team__card {
   padding: 30px;
 }
-
 .team__label {
   margin-bottom: 10px;
   font-weight: 500;
@@ -971,7 +967,6 @@ img {
   line-height: 1.187;
   letter-spacing: 0.03em;
 }
-
 .team__subtitle {
   color: var(--title-text-color);
   font-size: 16px;
@@ -979,7 +974,6 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
-
 .team__image {
   width: 450px;
   background-color: var(--primary-white-color);
@@ -1007,12 +1001,10 @@ img {
           justify-content: center;
   gap: 10px;
 }
-
 .social__item {
   width: 44px;
   height: 44px;
 }
-
 .social__link {
   width: 100%;
   height: 100%;
@@ -1034,7 +1026,6 @@ img {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
-
 .social__icon {
   fill: currentColor;
 }
