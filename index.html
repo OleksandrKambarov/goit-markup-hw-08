@@ -317,7 +317,27 @@
               </div>
             </li>
             <li class="team__image">
-              <img src="./images/img6.jpg" alt="Чоловік в білій сорочці посміхається" width="270" />
+              <picture>
+                <source
+                  srcset="./images/img-team3-mobile@2x.jpg 2x, ./images/img-team3-mobile.jpg 1x"
+                  type="image/jpg"
+                  media="(max-width:479px)"
+                />
+                <source
+                  srcset="./images/img-team3-desktop@2x.jpg 2x, ./images/img-team3-desktop.jpg 1x"
+                  type="image/jpg"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/img-team3-tablet@2x.jpg 2x"
+                  type="image/jpg"
+                  media="(min-width:480px)"
+                />
+                <img
+                  src="./images/img-team3-tablet.jpg"
+                  alt="Чоловік в коричневій сорочці посміхається"
+                />
+              </picture>
               <div class="team__card">
                 <h3 class="team__label">Микола Тарасов</h3>
                 <p class="team__subtitle">Marketing</p>
@@ -354,11 +374,27 @@
               </div>
             </li>
             <li class="team__image">
-              <img
-                src="./images/img7.jpg"
-                alt="Чоловік в чорній сорочці склав руки перед собою "
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="./images/img-team4-mobile@2x.jpg 2x, ./images/img-team4-mobile.jpg 1x"
+                  type="image/jpg"
+                  media="(max-width:479px)"
+                />
+                <source
+                  srcset="./images/img-team4-desktop@2x.jpg 2x, ./images/img-team4-desktop.jpg 1x"
+                  type="image/jpg"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/img-team4-tablet@2x.jpg 2x"
+                  type="image/jpg"
+                  media="(min-width:480px)"
+                />
+                <img
+                  src="./images/img-team4-tablet.jpg"
+                  alt="Чоловік в коричневій сорочці посміхається"
+                />
+              </picture>
               <div class="team__card">
                 <h3 class="team__label">Михайло Єрмаков</h3>
                 <p class="team__subtitle">UI Designer</p>
