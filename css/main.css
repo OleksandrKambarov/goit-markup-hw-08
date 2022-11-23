@@ -675,20 +675,18 @@ img {
   padding: 48px 40px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: opacity 250ms linear, visibility 250ms linear, -webkit-transform 250ms ease-in-out;
+  transition: opacity 250ms linear, visibility 250ms linear, -webkit-transform 250ms ease-in-out;
+  transition: opacity 250ms linear, visibility 250ms linear, transform 250ms ease-in-out;
+  transition: opacity 250ms linear, visibility 250ms linear, transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 .mobile-menu.is-open {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
+  opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
-  opacity: 1;
   visibility: visible;
   pointer-events: initial;
 }
