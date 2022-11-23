@@ -111,8 +111,7 @@
 
 &__menu {
     align-items: center;
-    margin-left: 88px;
-
+    
     @media (max-width: 767px) {
         display: none;
 
@@ -125,9 +124,17 @@
 }
 
 &__item {
-    &:not(:last-child) {
-    margin-right: 50px;
-}
+    @media (min-width: 767px) {
+        margin-bottom: 10px;
+
+    }
+    
+    @media (min-width: 1200px) {
+        &:not(:last-child) {
+            margin-right: 50px;
+        }
+
+    }
 }
 
 &__link {

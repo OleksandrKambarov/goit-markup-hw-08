@@ -543,7 +543,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 88px;
 }
 @media (max-width: 767px) {
   .contacts__menu {
@@ -557,8 +556,15 @@ img {
     display: flex;
   }
 }
-.contacts__item:not(:last-child) {
-  margin-right: 50px;
+@media (min-width: 767px) {
+  .contacts__item {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .contacts__item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 .contacts__link {
   display: block;
