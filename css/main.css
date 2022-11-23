@@ -663,7 +663,6 @@ img {
 }
 
 .mobile-menu {
-  opacity: 0;
   pointer-events: none;
   position: fixed;
   top: 0;
@@ -674,6 +673,8 @@ img {
   z-index: 999;
   background-color: var(--primary-white-color);
   padding: 48px 40px;
+  opacity: 0;
+  visibility: hidden;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
@@ -688,6 +689,8 @@ img {
   -webkit-transform: translateX(0);
           transform: translateX(0);
   opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
 }
 .mobile-menu__close-button {
   position: absolute;

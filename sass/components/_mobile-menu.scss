@@ -1,5 +1,5 @@
 .mobile-menu {
-    opacity: 0;
+    
     pointer-events: none;
     position: fixed;
     top: 0;
@@ -10,6 +10,9 @@
     z-index: 999;
     background-color: var(--primary-white-color);
     padding: 48px 40px;
+    
+    opacity: 0;
+    visibility: hidden;
 
     transform: translateX(-100%);
     transition: transform 250ms ease-in-out;
@@ -18,6 +21,8 @@
     display: flex;
     transform: translateX(0);
     opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
     }
 
 &__close-button {
