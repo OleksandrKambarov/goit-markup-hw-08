@@ -36,6 +36,8 @@
             margin-right: auto;
             margin-left: auto;
         }
+    
+       
 }
 
 &__text {
@@ -47,6 +49,11 @@
 &__item {
     &:not(:last-child) {
     margin-bottom: 9px;
+    }
+    
+@media (min-width: 767px) {
+        display: flex;
+
     }
 }
 
