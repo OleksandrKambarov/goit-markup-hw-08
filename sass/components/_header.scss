@@ -54,6 +54,8 @@
     padding: 0;
     background-color: var(--primary-white-color);
     border: 0px;
+    top: 10px;
+    right: 15px;
 
     @media (min-width: 768px) {
         display: none;
@@ -77,8 +79,7 @@
 }
 
 &__icon {
-    top: 10px;
-    right: 15px;
+   
     width: 40px;
     height: 40px;
 }

@@ -477,6 +477,8 @@ img {
   padding: 0;
   background-color: var(--primary-white-color);
   border: 0px;
+  top: 10px;
+  right: 15px;
 }
 @media (min-width: 768px) {
   .header__burger-menu {
@@ -498,8 +500,6 @@ img {
   margin-right: 50px;
 }
 .header__icon {
-  top: 10px;
-  right: 15px;
   width: 40px;
   height: 40px;
 }
@@ -674,8 +674,8 @@ img {
   z-index: 999;
   background-color: var(--primary-white-color);
   padding: 48px 40px;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
