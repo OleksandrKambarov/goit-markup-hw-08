@@ -8,6 +8,16 @@
         align-items: baseline;
         }
     
+        
+}
+
+&__adress-tablet  {
+    margin-bottom: 60px;
+    @media (min-width: 767px) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+}
 }
 
 &__adress {
@@ -36,8 +46,7 @@
             margin-right: auto;
             margin-left: auto;
         }
-    
-       
+
 }
 
 &__text {
@@ -50,11 +59,7 @@
     &:not(:last-child) {
     margin-bottom: 9px;
     }
-    
-@media (min-width: 767px) {
-        display: flex;
 
-    }
 }
 
 &__link {
