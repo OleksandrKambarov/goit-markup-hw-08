@@ -13,10 +13,11 @@
 
 &__adress-tablet  {
     margin-bottom: 60px;
+    
     @media (min-width: 767px) {
         display: flex;
-        justify-content: flex-end;
-        align-items: baseline;
+        justify-content: space-between;
+        align-items: flex-start;
 }
 }
 
@@ -41,7 +42,7 @@
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
 
-    @media (max-width: 767px) {
+    @media (max-width: 1200px) {
             display: table;
             margin-right: auto;
             margin-left: auto;
@@ -82,7 +83,7 @@
         color: var(--accent-color);
     }
     
-    @media (max-width: 767px) {
+    @media (max-width: 1200px) {
         display: table;
         margin-right: auto;
         margin-left: auto;
@@ -112,7 +113,7 @@
 
     color: var(--primary-white-color);
 
-    @media (max-width: 767px) {
+    @media (max-width: 1200px) {
         display: table;
         margin-right: auto;
         margin-left: auto;
