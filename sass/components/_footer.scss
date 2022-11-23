@@ -13,7 +13,7 @@
 
 &__adress-tablet  {
     margin-bottom: 60px;
-    
+    margin-right: auto;
     @media (min-width: 767px) {
         display: flex;
         justify-content: space-between;
@@ -43,10 +43,10 @@
     color: var(--primary-white-color);
 
     @media (max-width: 1200px) {
-            display: table;
-            margin-right: auto;
-            margin-left: auto;
-        }
+        display: table;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 }
 
@@ -83,7 +83,7 @@
         color: var(--accent-color);
     }
     
-    @media (max-width: 1200px) {
+    @media (max-width: 1199px) {
         display: table;
         margin-right: auto;
         margin-left: auto;
@@ -94,9 +94,6 @@
 
 .social {
 &__container {
-    @media (min-width: 1200px) {
-        margin-right: auto;
-    }
     @media (max-width: 767px) {
         margin-bottom: 60px;
     }
@@ -113,7 +110,7 @@
 
     color: var(--primary-white-color);
 
-    @media (max-width: 1200px) {
+    @media (max-width: 1199px) {
         display: table;
         margin-right: auto;
         margin-left: auto;

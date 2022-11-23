@@ -235,6 +235,7 @@ img {
 }
 .footer__adress-tablet {
   margin-bottom: 60px;
+  margin-right: auto;
 }
 @media (min-width: 767px) {
   .footer__adress-tablet {
@@ -300,7 +301,7 @@ img {
 .footer__link:hover, .footer__link:focus {
   color: var(--accent-color);
 }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .footer__link {
     display: table;
     margin-right: auto;
@@ -308,11 +309,6 @@ img {
   }
 }
 
-@media (min-width: 1200px) {
-  .social__container {
-    margin-right: auto;
-  }
-}
 @media (max-width: 767px) {
   .social__container {
     margin-bottom: 60px;
@@ -327,7 +323,7 @@ img {
   margin-bottom: 20px;
   color: var(--primary-white-color);
 }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .social__title {
     display: table;
     margin-right: auto;
