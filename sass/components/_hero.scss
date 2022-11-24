@@ -15,7 +15,7 @@
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img-hero-mobile@2x.jpg);
     }
 
-    @media (min-width: 577px) {
+    @media (min-width: 768px) {
 & {background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img-hero-tablet.jpg);
         background-repeat: no-repeat;
         }
@@ -26,7 +26,7 @@
         }
     }
     
-        @media (min-width: 960px) {
+        @media (min-width: 1200px) {
         & {background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img-hero-desktop.jpg);
                 background-repeat: no-repeat;
                 }
