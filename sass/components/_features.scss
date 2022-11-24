@@ -2,9 +2,7 @@
     @media (min-width: 1200px){
         padding-bottom: 0;
     } 
-}
-
-.features__title {
+&__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -20,7 +18,7 @@
 
 }
 
-.features__item {
+&__item {
     @media (max-width: 768px) {
         margin-bottom: 30px;
     &:last-child {
@@ -36,7 +34,7 @@
         }
 }
 
-.features__menu {
+&__menu {
     
 
     @media (min-width: 480px){ 
@@ -47,14 +45,14 @@
     gap: 30px;}
 }
 
-.features__text {
+&__text {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
-.features__list {
+&__list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,3 +62,5 @@
     border-radius: 4px;
     margin-bottom: 30px;
 }
+}
+
