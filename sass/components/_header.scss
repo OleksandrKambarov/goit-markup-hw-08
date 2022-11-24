@@ -124,7 +124,7 @@
 }
 
 &__item {
-    @media (min-width: 767px) {
+    @media (max-width: 1199px) {
         margin-bottom: 10px;
 
     }
