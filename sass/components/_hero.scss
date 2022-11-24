@@ -1,6 +1,6 @@
 .hero {
     max-width: 1600px;
-    height: 600px;
+    height: auto;
     background-color: var(--section-fon-color);
     text-align: center;
     background-size: cover;
@@ -58,7 +58,7 @@
         text-align: center;
         text-transform: uppercase;
     
-        @media (min-width: 480px) {
+        @media (min-width: 1200px) {
             font-size: 44px;
             line-height: 1.36;
             
