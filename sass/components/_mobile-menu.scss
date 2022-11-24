@@ -16,6 +16,7 @@
     transform: translateX(100%);
     transition: opacity 250ms linear, visibility 250ms linear, transform 250ms ease-in-out;
 
+
 &.is-open {
     display: block;
     opacity: 1;
@@ -44,20 +45,16 @@
 &__container {
     display: flex;
     flex-wrap: wrap;
-    min-width: 480px;
-    min-height: 796px;
-
+    min-width: 100%;
+    min-height: 100%;
 }
 
 &__social-container {
     display: flex;
 }
 
-
 &__nav {
     list-style: none;
-
-    
 }
 
 &__nav-item {
@@ -122,6 +119,7 @@
 
 &__social{
     display: flex;
+    align-items: flex-end;
     
 
 }
