@@ -160,6 +160,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+@media (max-width: 767px) {
+  .features__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 @media (max-width: 768px) {
   .features__item {
