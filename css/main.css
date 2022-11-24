@@ -63,14 +63,16 @@ img {
 
 .clients__title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.166;
+  font-size: 28px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
   text-align: center;
 }
 @media (min-width: 1200px) {
   .clients__title {
+    font-size: 36px;
+    line-height: 1.166;
     margin-bottom: 50px;
   }
 }
@@ -1095,10 +1097,17 @@ img {
 }
 .team__title {
   font-weight: 700px;
-  font-size: 36px;
-  line-height: 1.166;
+  font-size: 28px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+  .team__title {
+    font-size: 36px;
+    line-height: 1.166;
+    margin-bottom: 50px;
+  }
 }
 .team__menu {
   display: -webkit-box;
