@@ -14,10 +14,11 @@
 &__adress-tablet  {
     
     margin-right: auto;
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-start;
+        align-items: baseline;
         
     }
     @media (min-width: 1200px) {
