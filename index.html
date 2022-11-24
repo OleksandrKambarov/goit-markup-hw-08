@@ -62,7 +62,7 @@
         </button>
 
         <div class="mobile-menu js-menu-container" id="mobile-menu">
-          <div class="container">
+          <div class="mobile-menu__container">
             <button class="mobile-menu__close-button js-close-menu" type="button">
               <svg width="40px" height="40px" class="mobile-menu__icon">
                 <use href="./images/icons.svg#icon-close"></use>
@@ -81,12 +81,20 @@
                 </li>
               </ul>
             </nav>
-            <div class="mobile-menu__contacts-container">
-              <a class="mobile-menu__link-phone" href="">+38 096 111 11 11</a>
-              <a class="mobile-menu__link-email" href="">info@devstudio.com</a>
-            </div>
+            <ul class="mobile-menu__socials">
+              <li class="mobile-menu__contacts-item">
+                <a class="mobile-menu__contacts-link mobile-menu__contacts-link--phone" href=""
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li class="mobile-menu__contacts-item">
+                <a class="mobile-menu__contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
 
-            <div>
+            <div class="mobile-menu__social-container list">
               <ul class="mobile-menu__social list">
                 <li class="mobile-menu__social-item">
                   <a class="mobile-menu__social-link" href="">Instagram</a>
