@@ -5,8 +5,8 @@
   &__container {
     @media (min-width: 1200px) {
       display: flex;
-      align-items: baseline;
       justify-content: space-between;
+      align-items: baseline;
     }
   }
 
